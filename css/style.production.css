@@ -136,6 +136,8 @@ button:hover, button:focus {
 .grid {
 	display: -ms-grid;
 	display: grid;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .grid__item {
@@ -195,7 +197,7 @@ button:hover, button:focus {
 	display:inline-block;
 	font-family: inherit;
 	background-color: #FFFF00;
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
@@ -235,7 +237,7 @@ button:focus,
 		fill: #edc655;
 	}
 	to {
-		fill: undefined;
+		fill: #f76414;
 	}
 }
 
@@ -244,7 +246,7 @@ button:focus,
 		fill: #edc655;
 	}
 	to {
-		fill: undefined;
+		fill: #f76414;
 	}
 }
 
