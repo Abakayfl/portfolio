@@ -29,6 +29,6 @@ The styling was written in plain CSS and does not rely on a library such as Boot
 
 ## Link of my portfolio
 
-https://abakayfl.github.io/Portfolio-Website/about.html
+https://abakayfl.github.io/Portfolio-Website/index.html
 
 ![alt text](https://github.com/Abakayfl/Portfolio-Website/blob/main/Screen%20Shot%202021-04-18%20at%203.43.36%20PM.png)
