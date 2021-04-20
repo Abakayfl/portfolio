@@ -130,8 +130,13 @@ button:hover, button:focus {
 }
 
 .grid__item {
-	background-color: lightgray;
+  background-color: lightgray;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
 }
+
+
 
 .grid {
 	display: grid;
