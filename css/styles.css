@@ -127,6 +127,7 @@ button:hover, button:focus {
 
 .grid {
 	display: grid;
+	grid-auto-rows: 300px 350px;
 }
 
 .grid__item {
@@ -134,20 +135,22 @@ button:hover, button:focus {
   max-width: 100%;
   overflow: hidden;
   overflow-y: scroll;
+  padding: 10px;
+  margin: 10px;
+
 }
-
-
 
 .grid {
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
-	grid-auto-rows: 300px 300px;
+	grid-auto-rows: 360px 360px;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px
+	
 }
 
 .logo {
