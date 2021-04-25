@@ -143,7 +143,7 @@ button:hover, button:focus {
 .grid {
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
-	grid-auto-rows: 360px 360px;
+	grid-auto-rows: 380px 380px;
 }
 
 .grid {
