@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Muhammed Abakay -Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html"><img src="logo.svg" alt="mainPage"></a>
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="text-align: center; font-size: 50px; text-shadow: 1px 1px;">Case Study for MyFlix Project</h1>
+    <div class="case-study">
+        <div class="intro">
+            <div class="intro-content">
+                <h2>Overview</h2>
+                <p>
+                    myFlix is a web app, developed using the MERN (MongoDB, Express, React, Node) stack. This app
+                    provides users with access to information about movies, directors and genres. Users
+                    are able to create an account, update their personal data, create a list of favorite movies,
+                    look at the synopsis of each movies.
+                </p>
+                <h2>Purpose & Context</h2>
+                <p>
+                    mFlix was built as part of my web development course at CareerFoundry to
+                    demonstrate my skills in full-stack JavaScript development. I was able to demonstrate
+                    and practice my knowledge of front-end end back-end javascript frameworks as well as a
+                    document database (MongoDB) in one project.
+                </p>
+                <h1>Objective</h1>
+                <p>
+                    The objective of the project was to have a broad full stack project I can add to my
+                    professional portfolio. The task I wanted to accomplish is to build a complete
+                    server-side and client-side application from scratch.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="myFlix.png" alt="screenshot of movie list"
+                    style="width:500px;height:250px; border-radius: 12px; max-width: 100%; box-shadow: 2px 2px;">
+            </div>
+        </div>
+        <br>
+        <div class="server-side">
+            <div class="server-content">
+                <h1>Approach</h1>
+                <h2>Server-Side</h2>
+                <p>
+                    I created a restful API using Node.js and Express that interacts with non-relational database
+                    (MongoDB). The API can be accessed via commonly used HTTP methods like GET, PUT, POST and DELETE.
+                    To retrieve data from and store data in the database, CRUD (create, read, update, delete) methods
+                    are used. The API provides movie information in JSON format as shown on the right.
+                </p>
+                <P>
+                    To test the API, I used Postman. I also included user authentication and authorization code in the
+                    form of basic HTTP authentication and JWT authentication.
+                </P>
+            </div>
+            <div class="server-img">
+                <img src="postman.png" alt="screenshot authorized postman test"
+                    style="width:500px;height:250px; border-radius: 12px; max-width: 100%; box-shadow: 2px 2px;">
+            </div>
+        </div>
+        <br>
+        <div class="client-side">
+            <div class="client-content">
+                <h2>Client-Side</h2>
+                <p>
+                    After completing the API, I started to build the interface so that users can make requests to and
+                    receiving reponses from the server-side. It is a single page responsive application, developed with
+                    React-Angular. It provides several interface views, including, but not limited to, a main view
+                    (shows a list of all movies), single movie view (shows data about a single movie and allows users to
+                    add the movie to their list of favorites), a login view, a registration view and a profile view
+                    (where users can update their user data and list of favorites).
+                </p>
+            </div>
+            <div class="client-img">
+                <img src="client.png" alt="screenshot of login view"
+                    style="width:500px;height:250px; border-radius: 12px; max-width: 100%; box-shadow: 2px 2px;">
+            </div>
+        </div>
+        <br><br>
+        <div class="challenges">
+            <h1>Challenges</h1>
+            <p>
+                This was one of my most challenging project. But at the same time
+                this is my most favorite one since I was able to work on client-side and server-side javascript
+                frameworks in one project and have a good understanding how a full-stack web development project looks
+                like. I have enjoyed and learned building the API and working with database structures. I also quickly
+                became familiar with using the terminal. Developing the client-side, it took me a while to understand
+                how React and Angular work and how to achieve the desired results. But with the help of my great tutor
+                I did accomplish this task.
+            </p>
+        </div>
+        <br>
+        <div class="duration">
+            <h1>Duration</h1>
+            <p>
+                The development of the client-side took me longer than it normally took to complete a CareerFoundry
+                achievement. Because I needed time to grasp all the content and understand how React (and
+                Ract-Angular) work.
+            </p>
+        </div>
+        <br>
+        <div class="credits">
+            <h1>Credits</h1>
+            <p>Role: Student</p>
+            <p>Tutor: Jay Quach</p>
+            <p>Mentor: Ted Walther</p>
+            <div class="project-links">
+                <a href="https://github.com/Abakayfl/myFlix-Angular-client.git" class="code-button">Code</a>
+                <a href="https://abakayfl.github.io/myFlix-Angular-client/welcome" class="Demo-button">Demo</a>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="https://github.com/Abakayfl"><img src="img/github_icon.svg" alt="Github"></a>
+            <a href="https://twitter.com/AbakayMuhammed"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+            <a href=""><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
