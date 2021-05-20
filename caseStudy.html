@@ -39,23 +39,32 @@
             <div class="intro-content">
                 <h2>Overview</h2>
                 <p>
-                    myFlix is a web app, developed using the MERN (MongoDB, Express, React, Node) stack. This app
-                    provides users with access to information about movies, directors and genres. Users
-                    are able to create an account, update their personal data, create a list of favorite movies,
-                    look at the synopsis of each movies.
-                </p>
-                <h2>Purpose & Context</h2>
-                <p>
-                    mFlix was built as part of my web development course at CareerFoundry to
-                    demonstrate my skills in full-stack JavaScript development. I was able to demonstrate
-                    and practice my knowledge of front-end end back-end javascript frameworks as well as a
-                    document database (MongoDB) in one project.
+                    This is a single-page movie application called myFlix. According to the requirements that I had for
+                    this project, it was
+                    supposed
+                    to allow to register new users, login the existing users, update their information, view movies,
+                    directors and
+                    genres. With the help of my tutor and long study hours, I was able to meet these requirements for
+                    the
+                    application.
+                    To accomplish this task I used MERN (MongoDB, Express, React and Node) stack. MongoDB is a document
+                    database (to store movies and user information). Express is a Node.js web framework.
+                    React is a client-side JavaScript framework. And Node.js is a JavaScript web server. After building
+                    this app,
+                    I replaced React with Angular.js frontend framework.
+
+
                 </p>
                 <h2>Objective</h2>
                 <p>
-                    The objective of the project was to have a broad full stack project I can add to my
-                    professional portfolio. The task I wanted to accomplish is to build a complete
-                    server-side and client-side application from scratch.
+                    The objective is to have a full-stack project in my portfolio that I can demonstrate my exposure to
+                    client-side and server-side development tools. The project brief that I received for this task
+                    outlines
+                    all the requirements and expectations such as having logind-view, registeration-view, movie-view,
+                    update-view,
+                    and so on. Here is the link for the <a href="project-brief.pdf" download target="_blank">project
+                        brief</a> for detailed
+                    explanations.
                 </p>
             </div>
             <div class="intro-img">
@@ -66,17 +75,18 @@
         <br>
         <div class="server-side">
             <div class="server-content">
-                <h1 style="font-size: 26;">Approach</h1>
                 <h2>Server-Side</h2>
                 <p>
-                    I created a restful API using Node.js and Express that interacts with non-relational database
-                    (MongoDB). The API can be accessed via commonly used HTTP methods like GET, PUT, POST and DELETE.
-                    To retrieve data from and store data in the database, CRUD (create, read, update, delete) methods
-                    are used. The API provides movie information in JSON format as shown on the right.
+                    First I created the server-side of the application. To build a Rest API, I used Node.js (JavaScript
+                    runtime
+                    environment) and Express (to route HTTP request for the project). MondgoDB is used to construct the
+                    database (to store the information the app has).
                 </p>
                 <P>
-                    To test the API, I used Postman. I also included user authentication and authorization code in the
-                    form of basic HTTP authentication and JWT authentication.
+                    To test the API, I used Postman. The API provides information in JSON format as shown on the right.
+                    While testing the API endpoints, I used CRUD (create, retrieve, update, delete) operations.
+                    . At the end, the application is deployed to Heroku (a cloud platform as a server) to host it.
+
                 </P>
             </div>
             <div class="server-img">
@@ -89,12 +99,23 @@
             <div class="client-content">
                 <h2>Client-Side</h2>
                 <p>
-                    After completing the API, I started to build the interface so that users can make requests to and
-                    receiving reponses from the server-side. It is a single page responsive application, developed with
-                    React-Angular. It provides several interface views, including, but not limited to, a main view
-                    (shows a list of all movies), single movie view (shows data about a single movie and allows users to
-                    add the movie to their list of favorites), a login view, a registration view and a profile view
-                    (where users can update their user data and list of favorites).
+                    After completing the API and the database, I worked on the client-side (front-end) of the app where
+                    users can make requests and recieve responses from the server. I used Bootstrap and UI libraries
+                    to make the app visually appealing and responsive. It is a single page responsive application,
+                    developed with
+                    React Redux (for global accessibility). It provides several interface views such as a main view
+                    (shows a list of all movies),
+                    single movie view (shows data about a single movie and allows users to add the movie to their list
+                    of favorites), a login view, a registration view and a profile view
+                    (where users can update their user data and list of favorites). These views are interacting with the
+                    REST API endpoints defined in the server-side.
+                </p>
+                <p>
+                    After hosting the app in Heroku, React is replaced with Angular for several advantages such as
+                    cross-platform
+                    development, scalability, build speed and high performance. TypeScript programming language is used
+                    while working with Angular.
+
                 </p>
             </div>
             <div class="client-img">
@@ -104,26 +125,22 @@
         </div>
         <br><br>
         <div class="challenges">
-            <h1>Challenges</h1>
+            <h1>Challenges and How I resolved them</h1>
             <p>
-                This was one of my most challenging project. But at the same time
-                this is my most favorite one since I was able to work on client-side and server-side javascript
-                frameworks in one project and have a good understanding how a full-stack web development project looks
-                like. I have enjoyed and learned building the API and working with database structures. I also quickly
-                became familiar with using the terminal. Developing the client-side, it took me a while to understand
-                how React and Angular work and how to achieve the desired results. But with the help of my great tutor
-                I did accomplish this task.
+                This application was one of most favorite projects in the course. It was also the one I challenged most.
+                It took so much longer than what I expected. I needed to request help from my tutor, post questions on
+                the course developer's slack channel and utilize online resources to see how other developers fix the
+                problemns that I have encountered. Also I used Chrome developer tools (expecially breakpoint)
+                several times for debugging.
+
+                I am glad that I have worked on this project since it gave an understanding of how server-side and
+                client-side
+                work together in a full-stack project. And the challenges along the way, I believe, sharpened my skills
+                and
+                broadaned my perspective.
             </p>
         </div>
         <br>
-        <div class="duration">
-            <h1>Duration</h1>
-            <p>
-                The development of the client-side took me longer than it normally took to complete a CareerFoundry
-                achievement. Because I needed time to grasp all the content and understand how React (and
-                Ract-Angular) work.
-            </p>
-        </div>
         <br>
         <div class="credits">
             <h1>Credits</h1>
