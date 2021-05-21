@@ -131,11 +131,13 @@ button:hover, button:focus {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: #e4efe7;
+  border: 5px solid#99EE99;
   max-width: 100%;
   overflow: hidden;
   overflow-y: scroll;
   padding: 10px;
+  border-radius: 12px;
   
 }
 
@@ -283,6 +285,7 @@ button:focus,
 .intro-content {
 	padding: 20px;
 	box-shadow: 2px 2px;
+	border: 5px solid#99EE99;
 }
 
 .intro-img {
@@ -295,7 +298,7 @@ button:focus,
 }
 
 .intro > div {
-	background-color: #99EE99;
+	background-color: #e4efe7;
 	border-radius: 12px;
 }
 @media screen and (max-width: 900px) {
@@ -309,6 +312,7 @@ button:focus,
 	display: inline-block;
 	padding: 20px;
 	box-shadow: 2px 2px;
+	border: 5px solid#99EE99;
 	
 }
 
@@ -326,7 +330,7 @@ button:focus,
   }
 
 .server-side > div {
-	background-color: #99EE99;
+	background-color: #e4efe7;
 	border-radius: 12px;
 }
 
@@ -356,8 +360,9 @@ button:focus,
   }
 
 .client-side > div {
-	background-color: #99EE99;
+	background-color: #e4efe7;
 	border-radius: 12px;
+	
 	
 }
 
@@ -365,6 +370,7 @@ button:focus,
 	display: inline-block;
 	padding: 20px;
 	box-shadow: 2px 2px;
+	border: 5px solid#99EE99;
 }
 
 .client-img {
@@ -387,6 +393,7 @@ button:focus,
 
 .challenges {
 	text-align: center;
+
 }
 
 .credits { 
@@ -396,19 +403,11 @@ button:focus,
 .challenges {
 	max-width: 50%;
     padding: 10px;
-    border: 5px solid#99EE99;
+    background-color: #e4efe7;
     margin: auto;
 	border-radius: 12px;
 	box-shadow: 2px 2px;
-}
-
-.duration {
-	max-width: 50%;
-    padding: 10px;
-    border: 5px solid#99EE99;
-    margin: auto;	
-	border-radius: 12px;
-	box-shadow: 2px 2px;
+	border: 5px solid#99EE99;
 }
 
 .code-button {
@@ -418,14 +417,24 @@ button:focus,
 .credits {
 	max-width: 25%;
     padding: 10px;
-    border: 5px solid#99EE99;
+    background-color: #e4efe7;
     margin: auto;	
 	border-radius: 12px;
 	box-shadow: 2px 2px;
+	border: 5px solid#99EE99;
 
 }
 
+.about-body {
+	text-align: center;
+	margin-right: 40px;
+}
 
+.zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+  }
 
 
 
