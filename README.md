@@ -31,4 +31,4 @@ The styling was written in plain CSS and does not rely on a library such as Boot
 
 https://abakayfl.github.io/portfolio/index.html
 
-![alt text](https://github.com/Abakayfl/portfolio/blob/main/Screen%20Shot%202021-04-18%20at%203.43.36%20PM.png)
+![alt text](Screen Shot 2021-04-18 at 3.43.36 PM.png)
