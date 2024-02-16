@@ -71,8 +71,10 @@ button:hover, button:focus {
 .profile__portrait {
 	
 	width: 250px;
-	
+	float: left;
+	margin-right: 40px;
 	border-radius: 50%;
+	
 }
 
 .page-footer {
